@@ -1,0 +1,45 @@
+/*
+  Title: style.css
+  Author: Brittny Eaddy
+  Date: 1/26/21
+  Purpose: To customize styles for the app.
+*/
+
+/* Body Styles */
+body {
+  background-attachment: fixed;
+  background-image: url(WeatherBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  padding: 150px;
+}
+
+/* H1 Styles */
+h1 {
+  color: white;
+  text-align: center;
+}
+
+/* Searchbar Styles */
+.searchbar{
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  padding-left: 10px;
+  width: 25rem;
+}
+
+/* Formats weather info container */
+.container {
+    background-color: white;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 25rem;
+}

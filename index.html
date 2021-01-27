@@ -1,0 +1,61 @@
+<!--
+  Title: index.html
+  Author: Brittny Eaddy
+  Date: 1/26/21
+  Purpose: To provide structure to app.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Weather App</title>
+    
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+    
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+    
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body class="container-fluid">
+  <h1>Check Weather</h1>   
+    <!--Searchbar-->
+    <input type="text" autocomplete="off" class="searchbar" placeholder="Enter city">
+    
+    <!--Weather info display-->
+    <div class="container">
+        
+      <!--Weather icon-->
+      <div class="icon">
+        <img src="icons/unknown.png" alt="Weather Icon">
+      </div>
+    
+      <!--Temeperature (in Fahrenheit)-->
+      <div class="temp"></div>
+    
+      <!--Description-->
+      <div class="desc"></div>
+        
+      <!--Location (city, country) and date-->
+      <div class="location">
+        <div class="city"></div>
+        <div class="country"></div>
+        <div class="date"></div>
+      </div>
+    </div>
+    
+    <!--JavaScript-->
+    <script src="app.js"></script>
+    
+</body>
+</html>
