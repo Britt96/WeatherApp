@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
-  padding: 150px;
+  padding: 9.375rem;
 }
 
 /* H1 Styles */
@@ -22,23 +22,23 @@ h1 {
 
 /* Searchbar Styles */
 .searchbar{
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   display: block;
   margin: auto;
-  padding: 5px;
-  padding-left: 10px;
+  padding: 0.3125rem;
+  padding-left: 0.625;
   width: 25rem;
 }
 
 /* Formats weather info container */
 .container {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   display: block;
   margin: auto;
-  margin-bottom: 25px;
-  margin-top: 50px;
-  padding-bottom: 25px;
+  margin-bottom: 1.5625rem;
+  margin-top: 3.125rem;
+  padding-bottom: 1.5625rem;
   text-align: center;
   width: 25rem;
 }
