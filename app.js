@@ -1,8 +1,9 @@
 /*eslint-env es6*/
+
 "use strict";
+
 /*
   Title: app.js
-  Author: Brittny Eaddy
   Date: 1/26/21
   Purpose: To provide functionality to Weather App; links
     OpenWeatherMap API to app to display current weather stats.
