@@ -32,13 +32,13 @@ h1 {
 
 /* Formats weather info container */
 .container {
-    background-color: white;
-    border-radius: 15px;
-    display: block;
-    margin: auto;
-    margin-bottom: 25px;
-    margin-top: 50px;
-    padding-bottom: 25px;
-    text-align: center;
-    width: 25rem;
+  background-color: white;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  width: 25rem;
 }
